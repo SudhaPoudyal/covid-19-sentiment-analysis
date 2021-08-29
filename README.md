@@ -17,6 +17,7 @@ The project is related with the application of technology in the health sector f
 Data availability from the open source Kaggle has clean data to some extent which was imported into Jupyter notebook with the help of different libraries. Data wrangling and pre-processing were carried out before exploratory data analysis. Within that data, with the help of Jupyter notebook, further calculations of sentiments were done based on the tweets collected. In this study, the polarity of the sentiments along with the intensity of those sentiments were calculated using Valence Aware Dictionalry and sEntiment Reasoner (VADER), a Python lexicon and rule-based sentiment analysis tool. “VADER is designed to determine sentiments of social media posts based on individual words, emoticons and sentences” [6]. Then an overall picture of how people perceive towards those vaccines were figured out. A model was developed in Python using Bernoulli Naïve Bayes algorithm, Logistic Regression and Support Vector Machine (SVM) to compare the accuracy of each model for this analysis.
 
 ![image](https://user-images.githubusercontent.com/75915138/131266823-51366166-5739-4220-b91d-e2d83e7999fd.png)
+
 Figure 1: Workflow diagram for this study
 
 Data acquisition was one of the challenges in the selected project. Due to insufficient resources and limited time and expertise, open-source data was extracted, and all the analysis are relied on the same data. Covid-19 has changed the world dramatically and uncertainties have increased day by day. The result obtained from this study might not give the real picture specially on the sentiment of people and the perception towards vaccination as data were from 6 months back.  Besides that, sentiment analysis of tweets is all about contextual mining of text which basically identifies and extract subjective information from the online conversations using machine learning algorithms. With time and advancement in technology in deep learning, although the ability to analyse text has improved considerably [7] however; there are always shortcoming, and nothing is absolute. 
@@ -34,6 +35,7 @@ Data visualisation is one of the most important steps in Machine Learning projec
  ![image](https://user-images.githubusercontent.com/75915138/131266785-92009fb4-55c5-4b04-9ecf-d4eb8572cbc6.png)
 
 Figure 3: Cloud of words for positive sentiments
+
 An example is presented for positive tweets (Figure 3) where PfizerBioNTech, Moderna, SputnikV, are some of the names of vaccines that are listed and sorted by frequency. PfizerBioNTech vaccine was appeared with highest number in the tweets. Similarly, word cloud was plotted for each negative and neutral sentiments in the notebook.
 
  ![image](https://user-images.githubusercontent.com/75915138/131266828-bc7d3a8f-7231-4e93-86e2-1707eb146702.png)
