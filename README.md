@@ -7,7 +7,7 @@ The vaccination is made free by their government to their citizens; however, peo
 As a Data Scientist, I am interested in finding the best model while analysing the given data. With that in mind, this study will also focus on finding the best machine learning algorithms in terms of accuracy. In this study, three algorithms viz Bernoulli Naïve Bayes algorithm, Logistic Regression and Support Vector Machine (SVM) are taken into consideration.
 
 Research questions:
-1.	Finding the sentiments of people on the vaccines
+1.	Finding the distribution of each sentiment of people on the vaccines
 2.	Which model works better for analysing social media data?
 
 ### Resources: 
